@@ -69,3 +69,25 @@ Even if we just need to do that kind of calculation twice in a program, this fun
 ## Incorporating Other Tools
 
 We can make functions even more powerful by incorporating other tools like conditionals. Here is a classic example:
+
+```python
+def max(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+```
+
+Lets call our function:
+
+```python
+print(max(10, 12))
+```
+
+This produces the output:
+
+```
+12
+```
+
+If functions are able to make decisions, our programs become a lot more powerful!
